@@ -9,9 +9,9 @@ export default class Navbar extends Component {
     return (
     <NavWrapper className="navbar navbar-expand-sm navbar-light bg-light px-sm-5">
     
-    <ul className ="navbar-nav align-items-center">
+    <ul className ="navbar-nav align-items-center ml-5">
         <li className="nav-item ml-5">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
             <img src={Logo} height="100" alt="mdb logo"></img></a>
         </li>
         <li className="nav-item ml-5">
@@ -26,7 +26,7 @@ export default class Navbar extends Component {
         </li>
         <li className="nav-item ml-5">
         <Link to ="/" className="nav-link">
-            products
+            Cafea
         </Link>
         </li>
         <li className="nav-item ml-5">
@@ -35,14 +35,14 @@ export default class Navbar extends Component {
         </Link>
         </li>
         <li className="nav-item ml-5">
-        <Link to ="/register" className="nav-link">
-            <i class="fas fa-sign-in-alt">Register</i>
+        <Link to ="/authentificare" className="nav-link">
+            <i class="fas fa-sign-in-alt">Authentificare</i>
         </Link>
         </li>
         
     </ul>
 
-        <Link to ="/cart" className="ml-auto">
+        <Link to ="/cart" className="mx-auto">
             <ButtonContainer>
                 <span className="mr-2">
                 <i className="fas fa-cart-plus"/>

@@ -18,7 +18,7 @@ class PrajitoriaNoastra extends Component {
                     
       <br></br>
                     <div className="embed-responsive embed-responsive-16by9">
-                    <iframe className="embed-responsive-item" width="956" height="538" src="https://www.youtube.com/embed/viLcd7xfZ00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe Title="NovoRoasterVideo" className="embed-responsive-item" width="956" height="538" src="https://www.youtube.com/embed/viLcd7xfZ00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
               </Container>
             

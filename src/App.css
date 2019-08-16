@@ -47,6 +47,7 @@ font-family: "Kaushan Script", cursive !important;
     .bg2 {
       background-image: url("./components/homeslide03.jpg");
       height: 100vh;
+      width: auto;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -115,7 +116,7 @@ font-family: "Kaushan Script", cursive !important;
   .PageSwitcher__Item {
     background-color: #795548;
     color: #fff;
-    padding: 10px 25px;
+    padding: 10px 20px;
     cursor: pointer;
     font-size: .9em;
     border: none;
@@ -205,7 +206,7 @@ font-family: "Kaushan Script", cursive !important;
     border: none;
     outline: none;
     border-radius: 25px;
-    padding: 15px 70px;
+    padding: 10px 30px;
     font-size: .8em;
     font-weight: 500;
   }
@@ -251,4 +252,11 @@ font-family: "Kaushan Script", cursive !important;
       text-decoration: none;
   }
 
+#GDPR {
+  font-family: 'Raleway';
   
+}
+
+#checkout{
+  text-align:left
+}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Carousel, Container, Row, Col, Button } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image';
+import { Container } from 'react-bootstrap';
 
 class DespreNoi extends Component {
     render() {
