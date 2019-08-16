@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d85021e01f4a095792b2c5d10d0a4e8",
+    "revision": "1b001ccf958bb42aa135ec26474e9a85",
     "url": "/NovoRoastery---React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NovoRoastery---React/static/css/2.fea6f89e.chunk.css"
   },
   {
-    "revision": "85392efd0a6fb0286f16",
+    "revision": "63051f4c244e2e7e21aa",
     "url": "/NovoRoastery---React/static/css/main.474c26ee.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NovoRoastery---React/static/js/2.19f91b47.chunk.js"
   },
   {
-    "revision": "85392efd0a6fb0286f16",
-    "url": "/NovoRoastery---React/static/js/main.19294a3f.chunk.js"
+    "revision": "63051f4c244e2e7e21aa",
+    "url": "/NovoRoastery---React/static/js/main.2a1d5bbb.chunk.js"
   },
   {
     "revision": "50b1a8e6f063b8b0b1c8",
