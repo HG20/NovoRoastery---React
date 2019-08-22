@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NovoRoastery---React/precache-manifest.b4dbdffe44b6e261f16fab3b96382f1b.js"
+  "/NovoRoastery---React/precache-manifest.35a772d826a2b8d688bd6fa25bfab369.js"
 );
 
 self.addEventListener('message', (event) => {

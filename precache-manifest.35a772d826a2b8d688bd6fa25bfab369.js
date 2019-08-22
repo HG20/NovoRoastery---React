@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b001ccf958bb42aa135ec26474e9a85",
+    "revision": "b069d0e189f7346ebc9e33cadfe52b0c",
     "url": "/NovoRoastery---React/index.html"
   },
   {
@@ -8,24 +8,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NovoRoastery---React/static/css/2.fea6f89e.chunk.css"
   },
   {
-    "revision": "63051f4c244e2e7e21aa",
-    "url": "/NovoRoastery---React/static/css/main.474c26ee.chunk.css"
+    "revision": "2b92326ed50d4a44bf6b",
+    "url": "/NovoRoastery---React/static/css/main.ea55dc27.chunk.css"
   },
   {
     "revision": "abc3cbd8b95e15d9b638",
     "url": "/NovoRoastery---React/static/js/2.19f91b47.chunk.js"
   },
   {
-    "revision": "63051f4c244e2e7e21aa",
-    "url": "/NovoRoastery---React/static/js/main.2a1d5bbb.chunk.js"
+    "revision": "2b92326ed50d4a44bf6b",
+    "url": "/NovoRoastery---React/static/js/main.6c16d7fa.chunk.js"
   },
   {
     "revision": "50b1a8e6f063b8b0b1c8",
     "url": "/NovoRoastery---React/static/js/runtime~main.c7306230.js"
   },
   {
-    "revision": "699fa0f36a6683a60915983ad31a3788",
-    "url": "/NovoRoastery---React/static/media/Mano-Libre.699fa0f3.jpg"
+    "revision": "93b142d6b82253b6d85e2da800ba3925",
+    "url": "/NovoRoastery---React/static/media/Mano-Libre.93b142d6.jpg"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
