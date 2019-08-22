@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { Container } from 'react-bootstrap';
 import { MDBInput, MDBBtn } from "mdbreact";
 import { Link } from 'react-router-dom';
+import CartTotals from './Cart/CartTotals';
 
 
 class Checkout extends Component {
@@ -11,8 +12,8 @@ class Checkout extends Component {
                 <section class="checkout py-5" Style=" width: 60%" id="checkout">
                 <div>
                     Ai deja cont? 
-                    Creează-ți unul de la prima comandă. Folosindu-l comanzi mai simplu, mai rapid și ai acces la istoricul comenzilor tale. 
-                    În plus, ne ajuți să-ți oferim o experiență personalizată.
+                    Folosindu-l comanzi mai simplu, mai rapid si ai acces la istoricul comenzilor tale. 
+                    In plus, ne ajuti sa-ti oferim o experienta personalizata.
                 </div>
                 <br></br>
                 <Link to ="/authentificare">
@@ -23,7 +24,6 @@ class Checkout extends Component {
                     </button>
                 </Link>
                 
-
                 <MDBInput label="Nume" />
                 <MDBInput label="Prenume" />
                 <MDBInput label="Companie (optional)" />
@@ -34,8 +34,15 @@ class Checkout extends Component {
                 <MDBInput label="Adresa livrare" />
                 <MDBInput label="Localitate" />
                 <MDBInput label="Cod postal" />
-                </section>
+            </section>
+
+            <React.Fragment>
+            <div className="container-checkout" Style="float:right">
+                <span>total: {CartTotals} RON</span>
+            </div>
+            </React.Fragment>
             </Container>
+            
         );
     }
 }

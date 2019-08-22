@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, Button } from "mdbreact";
-import GDPR from './GDPR'
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
             </p>
           </MDBCol>
           <MDBCol md="4">
-            <h5 className="title">Social Links</h5>
+            <h5 className="title">Let's get Social</h5>
               <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
               <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
           </MDBCol>

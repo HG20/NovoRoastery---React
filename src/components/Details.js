@@ -33,7 +33,7 @@ export default class Details extends Component {
                 <img src={img} className="img-fluid" alt ="product"/>
               </div>
             {/*product text*/}
-            <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
+            <div className="col-10 mx-auto col-md-6 my-3">
               <h2>Blend : {title}</h2>
               <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
                 Continut: <span className="text-uppercase">
@@ -55,7 +55,7 @@ export default class Details extends Component {
               {/*buttons*/}
               <div className="detail-buttons">
                 <Link to ="/">
-                  <ButtonContainer>back to products</ButtonContainer>
+                  <ButtonContainer>Inapoi la produse</ButtonContainer>
                 </Link>
                   <ButtonContainer 
                   cart 
@@ -65,7 +65,7 @@ export default class Details extends Component {
                     value.openModal(id);
                   }}
                   >
-                    {inCart ? "inCart" : "add to cart"}
+                    {inCart ? "inCart" : "Adauga in cos"}
                   </ButtonContainer>
               </div>
             </div>

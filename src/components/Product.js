@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 export default class Product extends Component {
   render() {
-    const {id, title, img, price, inCart} = this.props.product;
+    const {id, title, img, content, price, inCart} = this.props.product;
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
@@ -43,10 +43,15 @@ export default class Product extends Component {
               <p className="align-self-center mb-0">
                 {title}
               </p>
+          
               <h5 className ="text-blue font-italic mb-0">
-                <span className="mr-1">RON</span>
-                {price}
+              {price}<span className="mr-1"> RON</span>
               </h5>
+            </div>
+            <div className="card-footer d-flex justify-content-between">
+            <p className="align-self-center mb-0">
+                {content}
+              </p>
             </div>
         </div>
          

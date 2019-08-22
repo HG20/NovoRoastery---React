@@ -6,27 +6,27 @@ export default function CartColumns() {
             <div className="row">
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
-                        products
+                        produse
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
-                        name of product
+                        numele blendului
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
-                        price
+                        pret
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
-                        quantity
+                        cantitate
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
-                        remove
+                        elimina
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">

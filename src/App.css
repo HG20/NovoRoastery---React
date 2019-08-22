@@ -181,7 +181,7 @@ font-family: "Kaushan Script", cursive !important;
     display: block;
     text-transform: uppercase;
     font-size: .9em;
-    color: white;
+    color: #969492;
   }
   .FormField__Input {
     width: 85%;
@@ -197,7 +197,7 @@ font-family: "Kaushan Script", cursive !important;
   }
   
   .FormField__Input::placeholder {
-    color: #616E7F;
+    color: #fff;
   }
   
   .FormField__Button {
@@ -258,5 +258,9 @@ font-family: "Kaushan Script", cursive !important;
 }
 
 #checkout{
-  text-align:left
+  text-align:left;
+}
+
+.container-checkout{
+  float:right;
 }

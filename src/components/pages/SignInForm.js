@@ -36,13 +36,13 @@ class SignInForm extends Component {
         <div className="FormCenter">
             <form onSubmit={this.handleSubmit} className="FormFields" onSubmit={this.handleSubmit}>
             <div className="FormField">
-                <label className="FormField__Label" htmlFor="email">E-Mail Address</label>
-                <input type="email" id="email" className="FormField__Input" placeholder="Enter your email" name="email" value={this.state.email} onChange={this.handleChange} />
+                <label className="FormField__Label" htmlFor="email">Adresa de e-mail</label>
+                <input type="email" id="email" className="FormField__Input" placeholder="Introduceti adresa de e-mail" name="email" value={this.state.email} onChange={this.handleChange} />
               </div>
 
               <div className="FormField">
-                <label className="FormField__Label" htmlFor="password">Password</label>
-                <input type="password" id="password" className="FormField__Input" placeholder="Enter your password" name="password" value={this.state.password} onChange={this.handleChange} />
+                <label className="FormField__Label" htmlFor="password">Parola</label>
+                <input type="password" id="password" className="FormField__Input" placeholder="Introduceti parola" name="password" value={this.state.password} onChange={this.handleChange} />
               </div>
 
               <div className="FormField">
